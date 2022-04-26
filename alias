@@ -1,0 +1,12 @@
+# General
+alias c='clear'
+alias ll='ls -lsa'
+
+# Git
+alias gs='git status -s'
+alias ga='git add .'
+alias gc='git commit -m '
+alias gp='git pull'
+
+# Docker
+alias dkcup='docker-compose up -d'
