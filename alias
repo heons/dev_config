@@ -10,3 +10,6 @@ alias gp='git pull'
 
 # Docker
 alias dkcup='docker-compose up -d'
+
+# Refresh aliases locally based on this file
+alias refresh-alias='curl -sS https://raw.githubusercontent.com/heons/dev_config/master/alias >> ~/.aliases && source ~/.aliases'
