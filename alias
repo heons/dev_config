@@ -14,6 +14,9 @@ alias dkcup='docker-compose up -d'
 alias dkrmc-all='docker rm -f $(docker ps -a -q)'
 alias dkrmi-all='docker rmi $(docker images -a -q)'
 
+# npm
+alias npm-ie=`npm install tag --experimental`
+
 # Refresh aliases locally based on this file
 alias refresh-alias='curl -sS https://raw.githubusercontent.com/heons/dev_config/master/alias >> ~/.aliases && source ~/.aliases'
 
