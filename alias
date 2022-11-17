@@ -15,7 +15,7 @@ alias dkrmc-all='docker rm -f $(docker ps -a -q)'
 alias dkrmi-all='docker rmi $(docker images -a -q)'
 
 # npm
-alias npm-ie='npm install tag --experimental'
+alias npm-ie='npm install --tag experimental'
 alias npm-rm='rm -rf node_modules/'
 
 # Refresh aliases locally based on this file
