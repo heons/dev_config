@@ -21,4 +21,6 @@ alias npm-rm='rm -rf node_modules/'
 # Refresh aliases locally based on this file
 alias refresh-alias='curl -sS https://raw.githubusercontent.com/heons/dev_config/master/alias >> ~/.aliases && source ~/.aliases'
 
-
+# LightBox Only
+alias es-run='docker-compose -f /home/huenoh/code/docker/projects/north-america/docker-compose.yml up -d elasticsearch_local'
+alias es-stop='docker stop elasticsearch_local'
