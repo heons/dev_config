@@ -23,8 +23,8 @@ alias refresh-alias='curl -sS https://raw.githubusercontent.com/heons/dev_config
 
 # LightBox Only
 alias go-code='cd ~/code'
-alias go-docker='cd ~/code/docker/projects/north-america/'
+alias go-docker='cd ~/workspace/others/aurora-docker/projects/north-america/'
 alias go-tester='cd ~/code/fuzzy-tester-aurora/fuzzy-tester'
 alias es-create-index='node ~/code/schema/scripts/create_index.js'
-alias es-run='docker-compose -f /home/huenoh/code/docker/projects/north-america/docker-compose.yml up -d elasticsearch-local'
+alias es-run='docker-compose -f /home/huenoh/workspace/others/aurora-docker/projects/north-america/docker-compose.yml up -d elasticsearch-local'
 alias es-stop='docker stop elasticsearch-local'
