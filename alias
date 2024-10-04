@@ -5,6 +5,7 @@ alias ll='ls -lsa'
 # Git
 alias gs='git status -s'
 alias ga='git add .'
+alias gbc='git checkout -b '
 alias gc='git commit -m '
 alias gp='git pull'
 alias gps='git stash && git checkout master && git pull && git stash apply'
