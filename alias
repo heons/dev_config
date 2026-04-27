@@ -25,7 +25,7 @@ alias npm-rm='rm -rf node_modules/'
 alias refresh-alias='curl -sS https://raw.githubusercontent.com/heons/dev_config/master/alias >> ~/.aliases && source ~/.aliases'
 
 # LightBox Only
-alias go-workspace='cd ~/workspace'
+alias go-workspace='cd ~/aurora-workspace'
 alias go-api='cd ~/aurora-workspace/services/aurora-api'
 alias go-batch='cd ~/aurora-workspace/services/batch-geocoder'
 alias go-deployment='cd ~/aurora-workspace/others/aurora-deployment'
