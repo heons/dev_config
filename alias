@@ -25,11 +25,14 @@ alias npm-rm='rm -rf node_modules/'
 alias refresh-alias='curl -sS https://raw.githubusercontent.com/heons/dev_config/master/alias >> ~/.aliases && source ~/.aliases'
 
 # LightBox Only
-alias go-code='cd ~/code'
+alias go-workspace='cd ~/workspace'
 alias go-api='cd ~/aurora-workspace/services/aurora-api'
 alias go-batch='cd ~/aurora-workspace/services/batch-geocoder'
 alias go-deployment='cd ~/aurora-workspace/others/aurora-deployment'
 alias go-tester='cd ~/aurora-workspace/services/aurora-fuzzy-tester/fuzzy-tester'
+
 alias es-create-index='node ~~/aurora-workspace/packages/aurora-schema/scripts/create_index.js'
 alias es-run='docker-compose -f /home/huenoh/aurora-workspace/others/aurora-docker/projects/north-america/docker-compose.yml up -d elasticsearch-local'
 alias es-stop='docker stop elasticsearch-local'
+
+alias aws-logins aws sso login --profile stage-admin && aws sso login --profile prod-admin && aws sso login --profile dev-admin
