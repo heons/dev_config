@@ -35,4 +35,4 @@ alias es-create-index='node ~~/aurora-workspace/packages/aurora-schema/scripts/c
 alias es-run='docker-compose -f /home/huenoh/aurora-workspace/others/aurora-docker/projects/north-america/docker-compose.yml up -d elasticsearch-local'
 alias es-stop='docker stop elasticsearch-local'
 
-alias aws-logins aws sso login --profile stage-admin && aws sso login --profile prod-admin && aws sso login --profile dev-admin
+alias aws-logins='aws sso login --profile stage-admin && aws sso login --profile prod-admin && aws sso login --profile dev-admin'
