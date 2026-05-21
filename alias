@@ -36,3 +36,6 @@ alias es-run='docker-compose -f /home/huenoh/aurora-workspace/others/aurora-dock
 alias es-stop='docker stop elasticsearch-local'
 
 alias aws-logins='aws sso login --profile stage-admin && aws sso login --profile prod-admin && aws sso login --profile dev-admin'
+alias use-aws-dev='export AWS_PROFILE=dev-admin'
+alias use-aws-stage='export AWS_PROFILE=stage-admin'
+alias use-aws-prod='export AWS_PROFILE=prod-admin'
